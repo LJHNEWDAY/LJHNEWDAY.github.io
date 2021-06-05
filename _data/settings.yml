@@ -1,44 +1,35 @@
-#-------------------------------
-# General Site Settings
-title: L J H
-logo: logo.svg # You can add own logo.
-description: Zolan is modern minimal theme for Jekyll
+# Change 'comments' to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'millennial-3'
 
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-ID: 'UA-112060364-2'
 
-#-------------------------------
-# Author Settings
-author:
-  name: Alex Rodriguez
-  image: 01.jpg
-  say-hello: Hello, I’m <strong>LJH</strong>
-  bio: intererting...
+menu:
+- {name: 'Interesting Facts',  url: 'facts'}
+- {name: 'Learning Resources', url: 'resources'}
+- {name: 'Sample Posts',       url: 'sample-posts'}
+- {name: 'Documentation',      url: 'documentation'}
+- {name: 'About',              url: 'about'}
+- {name: 'Contact',            url: 'contact'}
 
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {icon: 'twitter', link:    'https://twitter.com/paululele'}
+- {icon: 'facebook', link:   'https://www.facebook.com/paululele'}
+- {icon: 'instagram', link:  'https://instagram.com/paululele'}
+- {icon: 'envelope', link:   'mailto:hello@paulle.ca'}
+- {icon: 'rss-square', link: 'feed.xml'}
+# - {icon: 'rss-square', link: 'rss-feed.xml'}
 
-#-------------------------------
-# Contact links
-twitter: https://twitter.com/ # Add your Twitter handle
-facebook: https://facebook.com/ # Add your Facebook handle
-dribbble: https://dribbble.com/ # Add your Dribbble handle
-instagram: https://instagram.com/ # Add your Instagram handle
-pinterest: https://pinterest.com/ # Add your Pinterest handle
+# Customize site text
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
 
+sharing_button_prompt: 'Feel free to share!'
 
-#-------------------------------
-# Comment Section (Disqus)
-disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
+related_posts: 'You may also enjoy...'
 
-
-#-------------------------------
-# Instagram Feed
-instafeed: # To enable the instafeed, use the value true. To turn off use the value false.
-instagram-profile: artemsheludko_ # Add instagram username
-
-
-#-------------------------------
-# Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
-
-
-#-------------------------------
-# Newsletter
-mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+post_date_prefix: 'Written on'
